@@ -129,6 +129,10 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
+local a = game:GetService("ReplicatedStorage")
+local b = game:GetService("Players")
+local c = b.LocalPlayer
+
 do
     Window:Tag({
         Title = "--> PACKS STRENGTH <--",
